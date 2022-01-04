@@ -2,10 +2,15 @@
 # curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh -o UbuntuServerInitialConfig.sh && chmod +x UbuntuServerInitialConfig.sh |bash ./UbuntuServerInitialConfig.sh
 
 # Update OS
+sudo apt install software-properties-common -y
 sudo apt update && sudo apt upgrrade -y
 
 # Apt over HTTPS
 sudo apt install apt-transport-https gnupg1 dirmngr -y
+
+#install Python3
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt install python3.8 -y
 
 # Install & Enable Fail2ban
 sudo apt install fail2ban -y
