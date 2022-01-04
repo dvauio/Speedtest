@@ -1,6 +1,7 @@
 # One line run
 # curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh|bash
 
+mkdir /home/day/Apps/Speedtest 
 cd /home/day/Apps/Speedtest
 
 # Update OS
