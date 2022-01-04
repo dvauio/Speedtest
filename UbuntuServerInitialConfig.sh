@@ -22,9 +22,9 @@ curl -L https://packagecloud.io/ookla/speedtest-cli/gpgkey | gpg --dearmor | sud
 echo "deb [signed-by=/usr/share/keyrings/speedtestcli-archive-keyring.gpg] https://packagecloud.io/ookla/speedtest-cli/debian/ $(lsb_release -cs) main" | sudo tee  /etc/apt/sources.list.d/speedtest.list
 sudo apt update
 sudo apt install speedtest -y
-speedtest
+#speedtest
 
 # Make folder for Script
 sudo mkdir -m 777 /opt/speedtest
 sudo cd /opt/speedtest
-https://raw.githubusercontent.com/dvauio/Speedtest/main/Speedtest.py
+sudo https://raw.githubusercontent.com/dvauio/Speedtest/main/Speedtest.py
