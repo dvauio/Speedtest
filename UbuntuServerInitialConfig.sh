@@ -1,6 +1,11 @@
 # One line run
 # curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh -o /usr/local/bin/UbuntuServerInitialConfig.sh && chmod +x UbuntuServerInitialConfig.sh |bash ./UbuntuServerInitialConfig.sh
 
+# Move to Bin Folder
+cd /usr/local/bin
+
+# Make folder for Script
+mkdir ~/speedtest
 
 # Update OS
 sudo apt install software-properties-common -y
