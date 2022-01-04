@@ -1,5 +1,6 @@
 # One line run
-# curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh -o UbuntuServerInitialConfig.sh && chmod +x UbuntuServerInitialConfig.sh |bash ./UbuntuServerInitialConfig.sh
+# curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh -o /usr/local/bin/UbuntuServerInitialConfig.sh && chmod +x UbuntuServerInitialConfig.sh |bash ./UbuntuServerInitialConfig.sh
+
 
 # Update OS
 sudo apt install software-properties-common -y
