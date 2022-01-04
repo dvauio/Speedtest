@@ -1,12 +1,6 @@
 # One line run
 # curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh -o UbuntuServerInitialConfig.sh && chmod +x UbuntuServerInitialConfig.sh |bash UbuntuServerInitialConfig.sh
 
-# Make folder for Script
-sudo mkdir -m 777 /opt/speedtest
-
-# Move to Bin Folder
-sudo cd /opt/speedtest
-
 # Update OS
 sudo apt install software-properties-common -y
 sudo apt update && sudo apt upgrrade -y
@@ -29,3 +23,8 @@ echo "deb [signed-by=/usr/share/keyrings/speedtestcli-archive-keyring.gpg] https
 sudo apt update
 sudo apt install speedtest -y
 speedtest
+
+# Make folder for Script
+sudo mkdir -m 777 /opt/speedtest
+sudo cd /opt/speedtest
+https://raw.githubusercontent.com/dvauio/Speedtest/main/Speedtest.py
