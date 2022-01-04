@@ -26,5 +26,5 @@ sudo apt install speedtest -y
 
 # Make folder for Script
 sudo mkdir -m 777 /opt/speedtest
-sudo cd /opt/speedtest
-sudo https://raw.githubusercontent.com/dvauio/Speedtest/main/Speedtest.py
+cd /opt/speedtest
+curl https://raw.githubusercontent.com/dvauio/Speedtest/main/Speedtest.py -o Speedtest.py && chmod +x Speedtest.py
