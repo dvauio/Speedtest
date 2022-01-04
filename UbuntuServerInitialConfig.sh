@@ -1,5 +1,5 @@
 # One line run
-# curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh -o /opt/UbuntuServerInitialConfig.sh && chmod +x /opt/UbuntuServerInitialConfig.sh |bash ./UbuntuServerInitialConfig.sh
+# curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh -o /opt/UbuntuServerInitialConfig.sh && chmod +x /opt/UbuntuServerInitialConfig.sh |bash /opt/UbuntuServerInitialConfig.sh
 
 # Move to Bin Folder
 cd /usr/local/bin
