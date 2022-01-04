@@ -16,8 +16,8 @@ upload = upload.group(1)
 jitter = jitter.group(1)
 
 try:
-    f = open('/home/pi/speedtest/speedtest.csv', 'a+')
-    if os.stat('/home/pi/speedtest/speedtest.csv').st_size == 0:
+    f = open('/home/day/Apps/Speedtest/speedtest.csv', 'a+')
+    if os.stat('/home/day/Apps/Speedtest/speedtest.csv').st_size == 0:
             f.write('Date,Time,Ping (ms),Jitter (ms),Download (Mbps),Upload (Mbps)\r\n')
 except:
     pass
