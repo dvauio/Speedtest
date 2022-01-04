@@ -2,7 +2,7 @@
 # curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh -o /opt/UbuntuServerInitialConfig.sh && chmod +x /opt/UbuntuServerInitialConfig.sh |bash /opt/UbuntuServerInitialConfig.sh
 
 # Make folder for Script
-mkdir /opt/speedtest
+sudo mkdir -m 777 /opt/speedtest
 
 # Move to Bin Folder
 cd /opt/speedtest
@@ -27,5 +27,5 @@ sudo cp /etc/fail2ban/jail.{conf,local}
 curl -L https://packagecloud.io/ookla/speedtest-cli/gpgkey | gpg --dearmor | sudo tee /usr/share/keyrings/speedtestcli-archive-keyring.gpg >/dev/null
 echo "deb [signed-by=/usr/share/keyrings/speedtestcli-archive-keyring.gpg] https://packagecloud.io/ookla/speedtest-cli/debian/ $(lsb_release -cs) main" | sudo tee  /etc/apt/sources.list.d/speedtest.list
 sudo apt update
-sudo apt install speedtest
+sudo apt install speedtest -y
 speedtest
