@@ -1,8 +1,8 @@
 # One line run
 # curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh|bash
 
-mkdir /home/day/Apps/Speedtest 
-cd /home/day/Apps/Speedtest
+mkdir /home/day/Apps/Speedtest && cd /home/day/Apps/Speedtest
+
 
 # Update OS
 sudo apt install software-properties-common -y
@@ -25,7 +25,5 @@ echo "deb [signed-by=/usr/share/keyrings/speedtestcli-archive-keyring.gpg] https
 sudo apt update
 sudo apt install speedtest -y
 
-# Make folder for Script
-sudo mkdir -m 777 /opt/speedtest
-cd /opt/speedtest
+# Download Python Script
 curl https://raw.githubusercontent.com/dvauio/Speedtest/main/Speedtest.py -o Speedtest.py && chmod +x Speedtest.py
