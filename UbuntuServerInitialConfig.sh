@@ -1,5 +1,5 @@
 # One line run
-# sudo curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh -o /opt/UbuntuServerInitialConfig.sh && chmod +x /opt/UbuntuServerInitialConfig.sh |bash /opt/UbuntuServerInitialConfig.sh
+# curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh -o /UbuntuServerInitialConfig.sh && chmod +x /UbuntuServerInitialConfig.sh |bash ./UbuntuServerInitialConfig.sh
 
 # Make folder for Script
 sudo mkdir -m 777 /opt/speedtest
