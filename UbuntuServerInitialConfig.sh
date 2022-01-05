@@ -1,8 +1,8 @@
 # One line run
 # curl https://raw.githubusercontent.com/dvauio/Speedtest/main/UbuntuServerInitialConfig.sh|bash
 
-sudo mkdir /home/day/Apps/Speedtest && cd /home/day/Apps/Speedtest
-
+mkdir /home/day/Apps/Speedtest && cd /home/day/Apps/Speedtest
+mkdir Speedtest && cd /Speedtest
 
 # Update OS
 sudo apt install software-properties-common -y
