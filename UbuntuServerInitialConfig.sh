@@ -27,3 +27,4 @@ sudo apt install speedtest -y
 
 # Download Python Script
 curl https://raw.githubusercontent.com/dvauio/Speedtest/main/Speedtest.py -o Speedtest.py && chmod +x Speedtest.py
+
